@@ -19,7 +19,7 @@ curl http://localhost:3000/todos/1
 
 ### Example
 ```
-
+go run main.go
 ```
 
 ---
