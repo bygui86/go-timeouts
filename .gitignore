@@ -1,7 +1,47 @@
 
+###################### General ##################
+
+# -
+
+
+
+###################### OS generated #############
+
+########### Mac OS X
+*~
+._*
+__MACOSX
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+### jenv
+.java-version
+
+########### Windows
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+########### Linux
+# -
+
+
+
+###################### IDE configurations #######
+
+########### GoLand
+
+########### Visual Studio Code
+.vscode
+*.code-workspace
+
+
+
 ###################### GoLang ###################
 
 ########### Binaries
+go-kubernetes-istio
 *.exe
 *.exe~
 *.dll
@@ -13,12 +53,5 @@
 
 ########### Go coverage tool output (LiteIDE)
 *.out
-
-########### Vendor
-vendor/*
-!vendor/.gitkeep
-
-########### Distribution
-dist
 
 ########### Project specific
